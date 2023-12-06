@@ -315,7 +315,6 @@ function addNumber(x, y, r, i) {
   const text = document.createElementNS(svgNamespace, "text");
   text.setAttribute("x", x);
   text.setAttribute("y", y);
-  text.setAttribute("r", r);
   text.setAttribute("text-anchor", "middle");
   text.setAttribute("font-size", r);
   text.setAttribute("fill", fillColor);
@@ -568,7 +567,6 @@ function getFontSize(svg) {
     return width / 40;
   } else {
     const width = lengthToPixel(svg.getAttribute("width"));
-    console.log(svg.getAttribute("width"), width);
     return width / 40;
   }
 }
@@ -608,7 +606,6 @@ async function fetchIconList(course) {
 async function fetchIcon(url) {
   const response = await fetch(url);
   const svg = await response.text();
-  console.log(svg);
   return new DOMParser().parseFromString(svg, "image/svg+xml");
 }
 
