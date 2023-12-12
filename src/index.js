@@ -459,7 +459,7 @@ function getRects(points, index, r) {
   const rects = [];
   const margin = 1;
   const viewBox = getViewBox(svg);
-  const threshold = viewBox[3] * 0.05;
+  const threshold = viewBox[3] * skipFactor;
 
   let px = -Infinity;
   let py = -Infinity;
@@ -831,6 +831,7 @@ function selectAttribution(index) {
 const svgNamespace = "http://www.w3.org/2000/svg";
 const xlinkNamespace = "http://www.w3.org/1999/xlink";
 const accessList = getAccessList(5);
+const skipFactor = 0.05;
 let clickIndex = 0;
 let textIndex = 0;
 let currPathIndex = 0;
