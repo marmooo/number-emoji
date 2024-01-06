@@ -285,7 +285,6 @@
 1f44d.svg
 1f44e.svg
 1f44f.svg
-1f450.svg
 1f451.svg
 1f452.svg
 1f453.svg
@@ -608,7 +607,6 @@
 20e3.svg
 2122.svg
 2139.svg
-2194.svg
 2195.svg
 2196.svg
 2197.svg
@@ -749,5 +747,3 @@ fe4eb.svg
 fe4ec.svg
 fe4ed.svg
 fe4ee.svg
-fffc.svg
-fffd.svg
