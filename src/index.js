@@ -169,7 +169,8 @@ function getPoints(pathData) {
   const points = [];
   let x = 0;
   let y = 0;
-  pathData.segments.forEach((segment) => {
+  let n = 0;
+  pathData.segments.forEach((segment, i) => {
     switch (segment[0]) {
       case "H":
         x = segment[1];
@@ -211,6 +212,10 @@ function getPoints(pathData) {
         break;
       case "Z":
       case "z":
+        x = points[n][0];
+        y = points[n][1];
+        points.push([x, y]);
+        n = i;
         break;
     }
   });
@@ -271,10 +276,6 @@ function addNumbers(r) {
       texts.push(text);
       index += 1;
     });
-
-    pathData.segments = pathData.segments.filter((segment) =>
-      !segment[0].match(/[zZ]/)
-    );
 
     data.rects = rects;
     data.texts = texts;
