@@ -25,17 +25,17 @@ function parseTTF(inFile, outDir, options = {}) {
 
 function notoEmojiTwotone() {
   console.log("Noto Emoji Twotone");
-  parseTTF("vendor/NotoEmoji[wght].ttf", "docs/svg/noto-emoji-twotone");
+  parseTTF("vendor/NotoEmoji[wght].ttf", "svg/noto-emoji-twotone");
 }
 
 function androidEmoji() {
   console.log("Android Emoji");
-  parseTTF("vendor/AndroidEmoji.ttf", "docs/svg/android-emoji");
+  parseTTF("vendor/AndroidEmoji.ttf", "svg/android-emoji");
 }
 
 function fluentUIEmoji() {
   console.log("Fluent UI Emoji");
-  const dir = "docs/svg/fluentui-emoji";
+  const dir = "svg/fluentui-emoji";
   try {
     Deno.statSync(dir);
     Deno.removeSync(dir, { recursive: true });

@@ -4,12 +4,8 @@
 
 ## Installation
 
-1. install fonts
-
-- bash install-fonts.sh
-- `gitn clone vendor/ https://github.com/googlefonts/noto-emoji`
-
-2. `deno --allow-read --allow-write build-svg.js`
+1. `bash install-fonts.sh`
+2. `bash build-svg.sh`
 3. `deno run --allow-read --allow-write listup.js`
 
 ## Build
