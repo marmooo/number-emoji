@@ -4,9 +4,10 @@
 
 ## Installation
 
-1. `bash install-fonts.sh`
-2. `bash build-svg.sh`
-3. `deno run --allow-read --allow-write listup.js`
+1. `gitn clone vendor/ repos.lst` (see [gitn](https://github.com/marmooo/gitn))
+2. `bash install-fonts.sh`
+3. `bash build-svg.sh`
+4. `deno run --allow-read --allow-write listup.js`
 
 ## Build
 
