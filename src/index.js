@@ -189,6 +189,11 @@ function getPoints(pathData) {
         points.push([x, y]);
         break;
       case "M":
+        x = segment.at(-2);
+        y = segment.at(-1);
+        n = i;
+        points.push([x, y]);
+        break;
       case "L":
       case "C":
       case "S":
@@ -200,6 +205,11 @@ function getPoints(pathData) {
         points.push([x, y]);
         break;
       case "m":
+        x += segment.at(-2);
+        y += segment.at(-1);
+        n = i;
+        points.push([x, y]);
+        break;
       case "l":
       case "c":
       case "s":
@@ -215,7 +225,6 @@ function getPoints(pathData) {
         x = points[n][0];
         y = points[n][1];
         points.push([x, y]);
-        n = i + 1;
         break;
     }
   });
