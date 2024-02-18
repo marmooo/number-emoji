@@ -529,11 +529,20 @@ function removeSvgTagAttributes(svg) {
 function fixIconCode(svg) {
   const course = courseNode.options[courseNode.selectedIndex].value;
   switch (course) {
+    case "noto-emoji":
+    case "twemoji":
+    case "fluentui-emoji-flat":
+    case "blobmoji":
+    case "emojitwo":
+      break;
     case "fluentui-emoji-high-contrast":
       for (const node of svg.querySelectorAll('[fill="#212121"]')) {
         node.setAttribute("fill", "gray");
       }
       break;
+    default: // twotone
+      if (!svg.getAttribute("fill")) svg.setAttribute("fill", "gray");
+      resetCurrentColor(svg);
   }
 }
 
@@ -585,8 +594,6 @@ async function nextProblem() {
 
   fixIconCode(svg);
   styleAttributeToAttributes(svg);
-  if (!svg.getAttribute("fill")) svg.setAttribute("fill", "gray");
-  resetCurrentColor(svg);
   removeSvgTagAttributes(svg);
   shape2path(svg, createPath, { circleAlgorithm: "QuadBezier" });
   removeUseTags(svg);
