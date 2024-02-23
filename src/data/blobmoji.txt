@@ -171,63 +171,8 @@ elf medium skin tone.svg
 elf medium-dark skin tone.svg
 elf medium-light skin tone.svg
 elf.svg
-emoji_u0023_20e3.svg
-emoji_u002a_20e3.svg
-emoji_u0030_20e3.svg
-emoji_u0031_20e3.svg
-emoji_u0032_20e3.svg
-emoji_u0033_20e3.svg
-emoji_u0034_20e3.svg
-emoji_u0035_20e3.svg
-emoji_u0036_20e3.svg
-emoji_u0037_20e3.svg
-emoji_u0038_20e3.svg
-emoji_u0039_20e3.svg
-emoji_u00a9.svg
-emoji_u00ae.svg
 emoji_u1f004.svg
 emoji_u1f0cf.svg
-emoji_u1f170.svg
-emoji_u1f171.svg
-emoji_u1f17e.svg
-emoji_u1f17f.svg
-emoji_u1f18e.svg
-emoji_u1f191.svg
-emoji_u1f192.svg
-emoji_u1f193.svg
-emoji_u1f194.svg
-emoji_u1f195.svg
-emoji_u1f196.svg
-emoji_u1f197.svg
-emoji_u1f198.svg
-emoji_u1f199.svg
-emoji_u1f19a.svg
-emoji_u1f1e6.svg
-emoji_u1f1e7.svg
-emoji_u1f1e8.svg
-emoji_u1f1e9.svg
-emoji_u1f1ea.svg
-emoji_u1f1eb.svg
-emoji_u1f1ec.svg
-emoji_u1f1ed.svg
-emoji_u1f1ee.svg
-emoji_u1f1ef.svg
-emoji_u1f1f0.svg
-emoji_u1f1f1.svg
-emoji_u1f1f2.svg
-emoji_u1f1f3.svg
-emoji_u1f1f4.svg
-emoji_u1f1f5.svg
-emoji_u1f1f6.svg
-emoji_u1f1f7.svg
-emoji_u1f1f8.svg
-emoji_u1f1f9.svg
-emoji_u1f1fa.svg
-emoji_u1f1fb.svg
-emoji_u1f1fc.svg
-emoji_u1f1fd.svg
-emoji_u1f1fe.svg
-emoji_u1f1ff.svg
 emoji_u1f201.svg
 emoji_u1f202.svg
 emoji_u1f21a.svg
@@ -417,7 +362,6 @@ emoji_u1f3a7.svg
 emoji_u1f3a8.svg
 emoji_u1f3a9.svg
 emoji_u1f3aa.svg
-emoji_u1f3ab.svg
 emoji_u1f3ac.svg
 emoji_u1f3ad.svg
 emoji_u1f3ae.svg
@@ -1417,7 +1361,6 @@ emoji_u1f4ab.svg
 emoji_u1f4ac.svg
 emoji_u1f4ad.svg
 emoji_u1f4ae.svg
-emoji_u1f4af.svg
 emoji_u1f4b0.svg
 emoji_u1f4b1.svg
 emoji_u1f4b2.svg
@@ -1434,13 +1377,10 @@ emoji_u1f4bc.svg
 emoji_u1f4bd.svg
 emoji_u1f4be.svg
 emoji_u1f4bf.svg
-emoji_u1f4c0.svg
 emoji_u1f4c1.svg
 emoji_u1f4c2.svg
 emoji_u1f4c3.svg
 emoji_u1f4c4.svg
-emoji_u1f4c5.svg
-emoji_u1f4c6.svg
 emoji_u1f4c7.svg
 emoji_u1f4c8.svg
 emoji_u1f4c9.svg
@@ -1451,7 +1391,6 @@ emoji_u1f4cd.svg
 emoji_u1f4ce.svg
 emoji_u1f4cf.svg
 emoji_u1f4d0.svg
-emoji_u1f4d1.svg
 emoji_u1f4d2.svg
 emoji_u1f4d3.svg
 emoji_u1f4d4.svg
@@ -1483,10 +1422,6 @@ emoji_u1f4ed.svg
 emoji_u1f4ee.svg
 emoji_u1f4ef.svg
 emoji_u1f4f0.svg
-emoji_u1f4f1.svg
-emoji_u1f4f2.svg
-emoji_u1f4f3.svg
-emoji_u1f4f4.svg
 emoji_u1f4f5.svg
 emoji_u1f4f6.svg
 emoji_u1f4f7.svg
@@ -1522,18 +1457,7 @@ emoji_u1f515.svg
 emoji_u1f516.svg
 emoji_u1f517.svg
 emoji_u1f518.svg
-emoji_u1f519.svg
-emoji_u1f51a.svg
-emoji_u1f51b.svg
-emoji_u1f51c.svg
-emoji_u1f51d.svg
-emoji_u1f51e.svg
-emoji_u1f51f.svg
-emoji_u1f520.svg
-emoji_u1f521.svg
-emoji_u1f522.svg
 emoji_u1f523.svg
-emoji_u1f524.svg
 emoji_u1f525.svg
 emoji_u1f526.svg
 emoji_u1f527.svg
@@ -1656,7 +1580,6 @@ emoji_u1f5c3.svg
 emoji_u1f5c4.svg
 emoji_u1f5d1.svg
 emoji_u1f5d2.svg
-emoji_u1f5d3.svg
 emoji_u1f5dc.svg
 emoji_u1f5dd.svg
 emoji_u1f5de.svg
@@ -1867,8 +1790,6 @@ emoji_u1f691.svg
 emoji_u1f692.svg
 emoji_u1f693.svg
 emoji_u1f694.svg
-emoji_u1f695.svg
-emoji_u1f696.svg
 emoji_u1f697.svg
 emoji_u1f698.svg
 emoji_u1f699.svg
@@ -1967,7 +1888,6 @@ emoji_u1f6ba.svg
 emoji_u1f6bb.svg
 emoji_u1f6bc.svg
 emoji_u1f6bd.svg
-emoji_u1f6be.svg
 emoji_u1f6bf.svg
 emoji_u1f6c0.svg
 emoji_u1f6c0_1f3fb.svg
@@ -2120,7 +2040,6 @@ emoji_u1f929.svg
 emoji_u1f92a.svg
 emoji_u1f92a_200d_2063.svg
 emoji_u1f92b.svg
-emoji_u1f92c.svg
 emoji_u1f92d.svg
 emoji_u1f92e.svg
 emoji_u1f92f.svg
@@ -2267,9 +2186,6 @@ emoji_u1f942.svg
 emoji_u1f943.svg
 emoji_u1f944.svg
 emoji_u1f945.svg
-emoji_u1f947.svg
-emoji_u1f948.svg
-emoji_u1f949.svg
 emoji_u1f94a.svg
 emoji_u1f94b.svg
 emoji_u1f94c.svg
@@ -2293,7 +2209,6 @@ emoji_u1f95c.svg
 emoji_u1f95d.svg
 emoji_u1f95e.svg
 emoji_u1f95f.svg
-emoji_u1f960.svg
 emoji_u1f961.svg
 emoji_u1f962.svg
 emoji_u1f963.svg
@@ -2317,7 +2232,6 @@ emoji_u1f975.svg
 emoji_u1f976.svg
 emoji_u1f97a.svg
 emoji_u1f97b.svg
-emoji_u1f97c.svg
 emoji_u1f97d.svg
 emoji_u1f97e.svg
 emoji_u1f97f.svg
@@ -2608,20 +2522,17 @@ emoji_u1f9e3.svg
 emoji_u1f9e4.svg
 emoji_u1f9e5.svg
 emoji_u1f9e6.svg
-emoji_u1f9e7.svg
 emoji_u1f9e8.svg
 emoji_u1f9e9.svg
 emoji_u1f9ea.svg
 emoji_u1f9eb.svg
 emoji_u1f9ec.svg
-emoji_u1f9ed.svg
 emoji_u1f9ee.svg
 emoji_u1f9ef.svg
 emoji_u1f9f0.svg
 emoji_u1f9f1.svg
 emoji_u1f9f2.svg
 emoji_u1f9f3.svg
-emoji_u1f9f4.svg
 emoji_u1f9f5.svg
 emoji_u1f9f6.svg
 emoji_u1f9f7.svg
@@ -2631,7 +2542,6 @@ emoji_u1f9fa.svg
 emoji_u1f9fb.svg
 emoji_u1f9fc.svg
 emoji_u1f9fd.svg
-emoji_u1f9fe.svg
 emoji_u1f9ff.svg
 emoji_u1fa70.svg
 emoji_u1fa71.svg
@@ -2649,11 +2559,7 @@ emoji_u1fa92.svg
 emoji_u1fa93.svg
 emoji_u1fa94.svg
 emoji_u1fa95.svg
-emoji_u203c.svg
-emoji_u2049.svg
 emoji_u20e3.svg
-emoji_u2122.svg
-emoji_u2139.svg
 emoji_u2194.svg
 emoji_u2195.svg
 emoji_u2196.svg
@@ -2680,7 +2586,6 @@ emoji_u23f3.svg
 emoji_u23f8.svg
 emoji_u23f9.svg
 emoji_u23fa.svg
-emoji_u24c2.svg
 emoji_u25aa.svg
 emoji_u25ab.svg
 emoji_u25b6.svg
@@ -2736,7 +2641,6 @@ emoji_u2665.svg
 emoji_u2666.svg
 emoji_u2668.svg
 emoji_u267b.svg
-emoji_u267e_fe0f.svg
 emoji_u267f.svg
 emoji_u2692.svg
 emoji_u2693.svg
@@ -2747,7 +2651,6 @@ emoji_u2697.svg
 emoji_u2699.svg
 emoji_u269b.svg
 emoji_u269c.svg
-emoji_u26a0.svg
 emoji_u26a1.svg
 emoji_u26aa.svg
 emoji_u26ab.svg
@@ -2832,10 +2735,6 @@ emoji_u2744.svg
 emoji_u2747.svg
 emoji_u274c.svg
 emoji_u274e.svg
-emoji_u2753.svg
-emoji_u2754.svg
-emoji_u2755.svg
-emoji_u2757.svg
 emoji_u2763.svg
 emoji_u2764.svg
 emoji_u2795.svg
@@ -2857,7 +2756,6 @@ emoji_u3030.svg
 emoji_u303d.svg
 emoji_u3297.svg
 emoji_u3299.svg
-emoji_ufe82b.svg
 empty nest.svg
 face exhaling.svg
 face holding back tears.svg
@@ -2946,7 +2844,6 @@ handshake medium-light skin tone light skin tone.svg
 handshake medium-light skin tone medium skin tone.svg
 handshake medium-light skin tone medium-dark skin tone.svg
 handshake medium-light skin tone.svg
-headstone.svg
 health worker dark skin tone.svg
 health worker light skin tone.svg
 health worker medium skin tone.svg
@@ -2960,12 +2857,10 @@ heart hands medium-dark skin tone.svg
 heart hands medium-light skin tone.svg
 heart hands.svg
 heart on fire.svg
-heavy equals sign.svg
 high-speed train.svg
 hook.svg
 hut.svg
 hyacinth.svg
-identification card.svg
 index pointing at the viewer dark skin tone.svg
 index pointing at the viewer light skin tone.svg
 index pointing at the viewer medium skin tone.svg
@@ -3183,12 +3078,6 @@ man supervillain medium skin tone.svg
 man supervillain medium-dark skin tone.svg
 man supervillain medium-light skin tone.svg
 man supervillain.svg
-man technologist dark skin tone.svg
-man technologist light skin tone.svg
-man technologist medium skin tone.svg
-man technologist medium-dark skin tone.svg
-man technologist medium-light skin tone.svg
-man technologist.svg
 man vampire dark skin tone.svg
 man vampire light skin tone.svg
 man vampire medium skin tone.svg
@@ -3630,13 +3519,6 @@ teacher medium skin tone.svg
 teacher medium-dark skin tone.svg
 teacher medium-light skin tone.svg
 teacher.svg
-teapot.svg
-technologist dark skin tone.svg
-technologist light skin tone.svg
-technologist medium skin tone.svg
-technologist medium-dark skin tone.svg
-technologist medium-light skin tone.svg
-technologist.svg
 thong sandal.svg
 toothbrush.svg
 train.svg
@@ -3707,12 +3589,6 @@ woman supervillain medium skin tone.svg
 woman supervillain medium-dark skin tone.svg
 woman supervillain medium-light skin tone.svg
 woman supervillain.svg
-woman technologist dark skin tone.svg
-woman technologist light skin tone.svg
-woman technologist medium skin tone.svg
-woman technologist medium-dark skin tone.svg
-woman technologist medium-light skin tone.svg
-woman technologist.svg
 woman vampire dark skin tone.svg
 woman vampire light skin tone.svg
 woman vampire medium skin tone.svg
