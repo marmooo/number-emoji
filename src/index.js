@@ -3,7 +3,7 @@ import svgpath from "https://cdn.jsdelivr.net/npm/svgpath@2.6.0/+esm";
 
 const courseNode = document.getElementById("course");
 const colorNode = document.getElementById("color");
-const audioContext = new AudioContext();
+const audioContext = new globalThis.AudioContext();
 const audioBufferCache = {};
 loadAudio("error", "/number-emoji/mp3/boyon1.mp3");
 loadAudio("correct1", "/number-emoji/mp3/pa1.mp3");
