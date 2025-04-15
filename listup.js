@@ -1,4 +1,4 @@
-import { expandGlobSync } from "https://deno.land/std/fs/expand_glob.ts";
+import { expandGlobSync } from "@std/fs";
 
 function blobmoji(baseDir, dir) {
   const paths = [];
