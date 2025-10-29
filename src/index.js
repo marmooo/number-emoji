@@ -1,8 +1,11 @@
 import { shape2path } from "https://cdn.jsdelivr.net/npm/@marmooo/shape2path@0.0.2/+esm";
 import svgpath from "https://cdn.jsdelivr.net/npm/svgpath@2.6.0/+esm";
+import { createWorker } from "https://cdn.jsdelivr.net/npm/emoji-particle@0.0.4/+esm";
 
 const courseNode = document.getElementById("course");
 const colorNode = document.getElementById("color");
+const emojiParticle = initEmojiParticle();
+const maxParticleCount = 10;
 let audioContext;
 const audioBufferCache = {};
 loadConfig();
@@ -86,6 +89,30 @@ function playAudio(name, volume) {
   sourceNode.start();
 }
 
+function initEmojiParticle() {
+  const canvas = document.createElement("canvas");
+  Object.assign(canvas.style, {
+    position: "fixed",
+    pointerEvents: "none",
+    top: "0px",
+    left: "0px",
+  });
+  canvas.width = document.documentElement.clientWidth;
+  canvas.height = document.documentElement.clientHeight;
+  document.body.appendChild(canvas);
+
+  const offscreen = canvas.transferControlToOffscreen();
+  const worker = createWorker();
+  worker.postMessage({ type: "init", canvas: offscreen }, [offscreen]);
+
+  globalThis.addEventListener("resize", () => {
+    const width = document.documentElement.clientWidth;
+    const height = document.documentElement.clientHeight;
+    worker.postMessage({ type: "resize", width, height });
+  });
+  return { canvas, offscreen, worker };
+}
+
 function changeLang() {
   const langObj = document.getElementById("lang");
   const lang = langObj.options[langObj.selectedIndex].value;
@@ -136,6 +163,16 @@ function handleTextClick(text, pathIndex, value) {
     });
     if (pathIndex + 1 == problem.length) {
       playAudio("correctAll");
+      for (let i = 0; i < maxParticleCount; i++) {
+        emojiParticle.worker.postMessage({
+          type: "spawn",
+          options: {
+            particleType: "popcorn",
+            originX: Math.random() * emojiParticle.canvas.width,
+            originY: Math.random() * emojiParticle.canvas.height,
+          },
+        });
+      }
     } else {
       playAudio("correct2");
       currPathIndex += 1;
@@ -152,6 +189,22 @@ function handleTextClick(text, pathIndex, value) {
 
     playAudio("correct1");
     textIndex += 1;
+    if (clickIndex % 10 === 0) {
+      const particleCount = Math.min(
+        Math.floor(clickIndex / 10),
+        maxParticleCount,
+      );
+      for (let i = 0; i < particleCount; i++) {
+        emojiParticle.worker.postMessage({
+          type: "spawn",
+          options: {
+            particleType: "popcorn",
+            originX: Math.random() * emojiParticle.canvas.width,
+            originY: Math.random() * emojiParticle.canvas.height,
+          },
+        });
+      }
+    }
   }
 }
 
