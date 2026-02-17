@@ -33,8 +33,7 @@ function notoEmojiTwotone() {
 
 function androidEmoji() {
   console.log("Android Emoji");
-  const options = { glyphHeight: 2600, translateY: 2000 };
-  parseTTF("vendor/AndroidEmoji.ttf", "svg/android-emoji", options);
+  parseTTF("vendor/AndroidEmoji.ttf", "docs/svg/android-emoji");
 }
 
 function fluentUIEmoji() {
