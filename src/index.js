@@ -11,22 +11,20 @@ const audioBufferCache = {};
 loadConfig();
 
 function loadConfig() {
-  if (localStorage.getItem("darkMode") == 1) {
-    document.documentElement.setAttribute("data-bs-theme", "dark");
-    colorNode.value = "#ffffff";
-  }
+  const html = document.documentElement;
+  const newTheme = html.getAttribute("data-bs-theme") === "dark"
+    ? "light"
+    : "dark";
+  colorNode.value = (newTheme === "dark") ? "#000000" : "#dddddd";
 }
 
 function toggleDarkMode() {
-  if (localStorage.getItem("darkMode") == 1) {
-    localStorage.setItem("darkMode", 0);
-    document.documentElement.setAttribute("data-bs-theme", "light");
-    if (colorNode.value == "#ffffff") colorNode.value = "#000000";
-  } else {
-    localStorage.setItem("darkMode", 1);
-    document.documentElement.setAttribute("data-bs-theme", "dark");
-    if (colorNode.value == "#000000") colorNode.value = "#ffffff";
-  }
+  const html = document.documentElement;
+  const newTheme = html.getAttribute("data-bs-theme") === "dark"
+    ? "light"
+    : "dark";
+  html.setAttribute("data-bs-theme", newTheme);
+  localStorage.setItem("darkMode", newTheme);
 }
 
 function changeColor() {
